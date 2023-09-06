@@ -1,4 +1,6 @@
+
 function rot13(str) {
+    //variables
     let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let answer ="";
     for(let i =0; i < str.length; i++){
